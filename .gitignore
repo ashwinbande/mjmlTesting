@@ -1,4 +1,8 @@
 /templates/email/**
 !/templates/email/.gitkeep
+/templates/context/**
+!/templates/context/.gitkeep
+/templates/mjml/**
+!/templates/mjml/.gitkeep
 /venv/
 /staticfiles/

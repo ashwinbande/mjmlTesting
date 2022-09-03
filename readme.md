@@ -71,3 +71,10 @@ Now you can use these url of static assets by placing the url in json file of th
 }
 ```
 **Note: In gmail local urls are not loaded by default; you can enable them by running script provided in `script.js` in browser console.**
+
+### Live Reload
+By default, you need to reload every time the MJML or context is changed to see its effect in browser. The live reload feature helps to see live changes as you change the MJML or context by reloading the browser page. to activate run this command in separate console. Now your page will be updated when you save file in `templates` directory.
+```shell
+python manage.py livereload --ignore-file-extensions=.html
+```
+_( The HTML files are auto generated when we load the page in browser, hence we are ignoring those.)_
