@@ -1,0 +1,4 @@
+/templates/email/**
+!/templates/email/.gitkeep
+/venv/
+/staticfiles/
